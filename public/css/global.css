@@ -1,0 +1,127 @@
+
+TABLE TR.controls{
+    background-color: #fff !important;
+}
+TABLE TR.multi-controls{
+    background-color: #fff !important;
+}
+TABLE TR.controls TD, .clients TR.multi-controls TD{
+    border: 0;
+}
+TABLE TR.editing{
+    background-color: #007bff0d !important;
+}
+TABLE TR.error{
+    background-color: #dc354517 !important;
+}
+TABLE TR.error TH:first-child{
+    color: #bd2130;
+}
+TABLE TR.errormsg TD, TABLE TR.errormsg TH{
+	padding: 5px;
+	background-color: #dc354534 !important;
+}
+TABLE TR.errormsg SPAN.error{
+    color: #bd2130;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+TABLE TR.saving{
+    background-color: #28a74517 !important;
+}
+TABLE TR.editing TH:first-child{
+    border-left: 0.5rem #007bff solid;
+    padding-left: 0.6rem; 
+}
+TABLE TR.error TH:first-child{
+    border-left: 0.5rem #bd2130 solid;
+}
+TABLE TR.saving TH:first-child{
+    border-left: 0.5rem #28a745 solid;
+}
+TABLE TR.editing TD.actions DIV.edit{
+    display:inline-flex;
+    visibility:visible;
+}
+TABLE TR.editing TD.actions DIV.data{
+    display:none;
+    visibility:hidden;
+}
+TABLE TR TD.actions DIV.data{
+    display:inline-flex;
+    visibility:visible;
+}
+TABLE TR TD.actions DIV.edit{
+    display:none;
+    visibility:hidden;
+}
+TABLE TD.editable INPUT{
+    width:100%;
+    border:0;
+    background-color:transparent;
+    color: #007bff;
+    padding: 0;
+    margin: 0;
+}
+TABLE BUTTON{
+    width: 80px;
+}
+TABLE BUTTON.large{
+    width: 160px;
+}
+TABLE TH:last-child{
+    width: 10% !important;
+}
+TABLE TH:first-child{
+    width: 10% !important;
+}
+TABLE TH{
+    /*width: 30%;*/
+}
+TABLE TH LABEL{
+	margin-top: 3px;
+}
+TABLE TH DIV.sorting{
+    float: right;
+    display: inline-grid;
+    margin-left: 10px;
+}
+.loading-icon {
+	width: 10px !important;
+	height: auto !important;
+}
+.loading {
+	-webkit-animation-name: loading; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1.0s; /* Chrome, Safari, Opera */
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+	animation-name: loading;
+	animation-duration: 1.0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+
+}
+@-webkit-keyframes loading {
+	from {
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+	}
+}
+@keyframes loading {
+	from {
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+	}
+}
